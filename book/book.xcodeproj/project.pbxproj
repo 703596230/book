@@ -14,6 +14,7 @@
 		6A12D3602064A72200C4F188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A12D35F2064A72200C4F188 /* Assets.xcassets */; };
 		6A12D3632064A72200C4F188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A12D3612064A72200C4F188 /* LaunchScreen.storyboard */; };
 		6A12D3662064A72200C4F188 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A12D3652064A72200C4F188 /* main.m */; };
+		6AAD85CC2064AC570030C624 /* ESBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD85CB2064AC570030C624 /* ESBookViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		6A12D3622064A72200C4F188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A12D3642064A72200C4F188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A12D3652064A72200C4F188 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6AAD85CA2064AC570030C624 /* ESBookViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESBookViewController.h; sourceTree = "<group>"; };
+		6AAD85CB2064AC570030C624 /* ESBookViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESBookViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 				6A12D3642064A72200C4F188 /* Info.plist */,
 				6A12D3652064A72200C4F188 /* main.m */,
 				6A12D35C2064A72200C4F188 /* book.xcdatamodeld */,
+				6AAD85CA2064AC570030C624 /* ESBookViewController.h */,
+				6AAD85CB2064AC570030C624 /* ESBookViewController.m */,
 			);
 			path = book;
 			sourceTree = "<group>";
@@ -147,6 +152,7 @@
 			files = (
 				6A12D3582064A72200C4F188 /* ViewController.m in Sources */,
 				6A12D35E2064A72200C4F188 /* book.xcdatamodeld in Sources */,
+				6AAD85CC2064AC570030C624 /* ESBookViewController.m in Sources */,
 				6A12D3662064A72200C4F188 /* main.m in Sources */,
 				6A12D3552064A72200C4F188 /* AppDelegate.m in Sources */,
 			);
